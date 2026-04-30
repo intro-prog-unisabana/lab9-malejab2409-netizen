@@ -1,4 +1,4 @@
-# TODO: Import modules
+import car_utils, car
 def main():
     cars = {}  # Dictionary to store cars with car_id as key and car objects as values
 
@@ -13,8 +13,7 @@ def main():
         choice = input("Choose an option:\n")
 
         if choice == '1':
-          """TODO: Call the appropriate function from utils.py to create 
-          the car, add it to the dictionary, and print the car."""
+           
 
 
         elif choice == '2':
