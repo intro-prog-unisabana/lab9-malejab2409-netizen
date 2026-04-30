@@ -13,4 +13,4 @@ class BankAccount:
     def _str_(self):
         account_str = str(self.account_number)
         ultimo = account_str[-2:]
-        return f"Account Number: **{ultimo}\nCurrent Balance:{self.balance:.1f}"
+        return f"Account Number: **{ultimo}\nCurrent Balance:{self.balance:.2f}"

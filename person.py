@@ -1,5 +1,5 @@
 class Person:
-    def _init_(self, name):
+    def __init__(self, name):
         self.name = name 
         self.cuenta = []
     def add_account(self, account):
