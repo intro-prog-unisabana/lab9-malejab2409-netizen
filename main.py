@@ -27,8 +27,8 @@ def main():
                     found_person = p
                     break 
             if found_person:
-                acc_num = int(input("Enter a 4-digit account number "))
-                initial_balance = float(input("Enter the initial balance"))
+                acc_num = int(input("Enter a 4-digit account number: "))
+                initial_balance = float(input("Enter the initial balance: "))
                 new_acc = BankAccount(acc_num, initial_balance)
                 found_person.add_account(new_acc)
             else:
