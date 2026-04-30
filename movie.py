@@ -9,7 +9,6 @@ class Movie:
     def _str_(self):
         return f"Movie: {self.title} (Directed by {self.director}, {self.year})"
         
-
 # FREEZE CODE BEGIN
 if __name__ == "__main__":
     # --- Main Program ---
@@ -17,5 +16,5 @@ if __name__ == "__main__":
     director = input("Enter the director's name: ")
     year = input("Enter the release year: ")
 # FREEZE CODE END
-    my_movie = Movie(title, director, year)
-    print(my_movie)
+    movie = Movie(title, director, year)
+    print(movie)
