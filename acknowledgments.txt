@@ -4,14 +4,14 @@ Lab 9
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
 Número de horas:
-
+7
 
 /****************************************************************************
 * ¿Encontraste algún problema serio? Si es así, por favor descríbelo.
 ******************************************************************************/
 
 ¿Sí o no?
-
+no
 
 /****************************************************************************
 * Escribe cualquier otro comentario aquí.
@@ -23,7 +23,7 @@ Número de horas:
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
+[https://github.com/malejab2409-netizen]
 
 /****************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -34,4 +34,5 @@ Número de horas:
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-[escribe y firma la declaración aquí]
+[Esta tarea de programación representa mi propio trabajo de acuerdo
+ *      con las regulaciones de la Universidad.  /s/ Maria Alejandra Benitez]
