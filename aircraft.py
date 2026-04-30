@@ -1,3 +1,5 @@
+
+
 # FREEZE CODE BEGIN
 class Aircraft:
     def __init__(self, model, altitude=0):
