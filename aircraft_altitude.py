@@ -11,7 +11,7 @@ def main():
         if command == "A":
             my_aircraft.climb(feet)
         elif command == "D":
-            my_aircraft.descent(feet)
+            my_aircraft.descend(feet)
     print(f"Final altitude: {my_aircraft.altitude} feet")
 if __name__ == "__main__":
     main()
