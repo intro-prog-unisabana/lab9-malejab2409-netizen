@@ -9,7 +9,7 @@ def main():
             break 
         feet = int(user_input[1])
         if command == "A":
-            my_aircraft.ascent(feet)
+            my_aircraft.climb(feet)
         elif command == "D":
             my_aircraft.descent(feet)
     print(f"Final altitude: {my_aircraft.altitude} feet")

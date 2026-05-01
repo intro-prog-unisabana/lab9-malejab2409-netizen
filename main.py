@@ -1,4 +1,4 @@
-from person import Person, person_data, balance_summary
+from utils import person_data, balance_summary
 from bank_account import BankAccount
 def main():
     people = []  # List to store all Person objects
@@ -20,12 +20,12 @@ def main():
 
         # Option 2: Add an account to an existing person
         elif choice == "2":
-            target_name = input("Enter the person's name:").strip 
+            target_name = input("Enter the person's name:").strip()
             found_person = None
             for p in people:
                 if p.name == target_name:
                     found_person = p
-                    break 
+                    break
             if found_person:
                 acc_num = int(input("Enter a 4-digit account number: "))
                 initial_balance = float(input("Enter the initial balance: "))

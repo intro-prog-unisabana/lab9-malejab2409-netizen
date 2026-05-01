@@ -10,7 +10,7 @@ class BankAccount:
         else:
             self.balance -= amount
             return 0
-    def _str_(self):
+    def __str__(self):
         account_str = str(self.account_number)
         ultimo = account_str[-2:]
-        return f"Account Number: **{ultimo}\nCurrent Balance:{self.balance:.2f}"
+        return f"Account Number: **{ultimo}\nCurrent Balance: {self.balance:.2f}"

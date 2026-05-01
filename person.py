@@ -1,8 +1,8 @@
 class Person:
     def __init__(self, name):
         self.name = name 
-        self.cuenta = []
+        self.accounts = []
     def add_account(self, account):
-        self.cuenta.append(account)
-    def _str_(self): 
-        return f"Name = {self.name}, Number of accounts = {len(self.cuenta)} "
+        self.accounts.append(account)
+    def __str__(self): 
+        return f"Name = {self.name}, Number of accounts = {len(self.accounts)} "
